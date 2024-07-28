@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: 20px auto 0;
+
+    .item {
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        text-align: center;
+        min-width: 170px;
+        padding: 10px 0;
+
+        img {
+            width: 60%;
+        }
+
+        .hour, .temperature {
+            font-size: 1.8rem;
+        }
+
+        .description {
+            text-transform:capitalize;
+        }
+    }
+}

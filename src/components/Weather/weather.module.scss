@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    margin-top: 10px;
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 44%;
+        height: 160px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+
+        .temperate {
+            font-size: 10rem;
+        }
+
+        .img {
+            height: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .sub {
+        list-style-type: none;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.3);
+        
+
+        .item {
+            width: 25%;
+            text-align: center;
+
+            .quantitation {
+                margin-top: 20px;
+            }
+        }
+    }
+}
